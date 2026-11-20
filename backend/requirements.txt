@@ -1,0 +1,11 @@
+langchain
+langchain-groq
+langgraph
+tavily-python
+python-dotenv
+requests
+beautifulsoup4
+fastapi
+uvicorn
+sse-starlette
+pytest
