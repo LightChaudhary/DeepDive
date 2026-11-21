@@ -15,9 +15,12 @@ workflow.add_edge("writer", "critic")
 
 
 def should_continue(state: AgentState):
-    if state.get("score", 0) >= 8:
+    if not state.get("raw_content"):
         return END
-    if state.get("revision_count", 0) >= 2:
+    score = state.get("score")
+    if score is None or score >= 8:   # None = the review failed; don't loop
+        return END
+    if state.get("revision_count", 0) >= 3:
         return END
     return "writer"
 

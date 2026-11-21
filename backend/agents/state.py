@@ -6,7 +6,7 @@ class AgentState(TypedDict):
     topic: str
     search_queries: List[str]
     sources: List[dict]
-    raw_content: List[str]
+    raw_content: List[dict]
     draft: str
     critique: str
     score: int
