@@ -10,15 +10,11 @@ Type a topic and four AI agents search the web, read the pages, write a sourced 
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
 
 
-<!--
+
 ## Live demo
 
 - App: https://deep-dive-nu.vercel.app
-- API docs: https://deepdive-api-ai5h.onrender.com
 
-(Free hosting can take about 30 seconds to wake up on the first request.)
-Remove this comment markup once the links are real.
--->
 
 ## Features
 
